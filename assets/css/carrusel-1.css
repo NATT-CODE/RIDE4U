@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+.slider {
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1.15);
+    opacity: 1; 
+    /* background:rgb(87,196,249); fallback for old browsers  */
+    /* background: linear-gradient(90deg, rgba(87,196,249,1) 0%, rgba(14,146,199,1) 50%, rgba(87,196,249,1) 100%); */
+    background-color: #F0F0F0;
+    color: #fff;
+}
+
+.slider-card{
+    background-color: rgb(255, 255, 255); 
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px #000000;
+    transform: scale(0.9); 
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.album{
+    color: #fff;
+    font-size: 15px !important;
+    text-align: right;
+}
+
+.album a:hover{
+    color: black;
+}
