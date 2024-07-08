@@ -1,26 +1,16 @@
 :root {
-  /* Paleta de colores Moderna */
-  --color-primario: #F3552C;  /* Encabezados (Anaranjado) */
-  --color-secundario: #63D1E6; /* Botones (Celeste) */
-  --color-terciario: #F0F0F0;  /* Fondo (Gris claro) */
-  --color-texto-principal: #52504B; /* Texto principal (Gris oscuro) */
+  --color-primario: #4b1c71; 
+  --color-secundario: #63D1E6; 
+  --color-terciario: #F0F0F0; 
+  --color-texto-principal: #52504B; 
 
-  /* Colores adicionales */
-  --color-texto-secundario: #6D6B67; /* Un gris medio que complementa el texto principal */
-  --color-hover: #FF7F50;  /* Un tono anaranjado más claro para estados hover */
-  --color-borde: #A9A9A9;  /* Un gris intermedio para bordes */
-  --color-fondo-claro: #FFFFFF;  /* Blanco para elementos que necesitan un fondo aún más claro */
-  --color-fondo-oscuro: #C0C0C0; /* Un gris claro adicional para variación */
-  --color-boton-hover: #5DB0C6;  /* Un celeste ligeramente más oscuro para el estado hover de los botones */
+  --color-texto-secundario: #6D6B67; 
+  --color-hover: #7f4ca5;  
+  --color-borde: #A9A9A9; 
+  --color-fondo-claro: #FFFFFF;  
+  --color-fondo-oscuro: #C0C0C0; 
+  --color-boton-hover: #5DB0C6;  
 }
-
-/*
-
-.footer {
-  background-color: var(--color-fondo-oscuro);
-  color: var(--color-texto-secundario);
-} */
-
 
 /*--------------------------------------------------------------
 # General
@@ -104,7 +94,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #FF8803, #F3552C);
+  background: linear-gradient(-45deg, #4a0582, #ad61e7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -161,7 +151,7 @@ section {
 
 .btn.btn-primary {
   background: var(--color-primario); /* #F3552C */
-  background: linear-gradient(-45deg rgba(244, 110, 69, 0.8) 0%, rgba(255, 217, 0, 0.8) 100%);
+  background: linear-gradient(-45deg rgba(75, 28, 113, 0.8) 0%, rgba(181, 126, 220, 0.8) 100% 100%);
   color: var(--color-fondo-claro); /* #FFFFFF */
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 }
@@ -181,7 +171,7 @@ section {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #FFB200, #F3552C);
+  background: linear-gradient(-45deg, #4a0582, #ad61e7);
 }
 
 .feature-1 .wrap-icon i {
@@ -206,7 +196,7 @@ section {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #FFB200, #F3552C);
+  background: linear-gradient(-45deg, #4a0582, #ad61e7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -254,17 +244,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #F3552C;
+  border: 1px solid #4a0582;
 }
 
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F3552C;
+  background-color: #4a0582;
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #FFB200, #F3552C);
+  background: linear-gradient(-45deg, #4a0582, #ad61e7);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -275,7 +265,7 @@ section {
 }
 
 .pricing h3 {
-  color: #F3552C;
+  color: #4a0582;
 }
 
 .pricing .price-cta {
@@ -318,14 +308,14 @@ section {
 }
 
 .pricing .btn-white:hover {
-  color: #F3552C;
+  color: #4a0582;
 }
 
 .pricing.popular {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #FFB200, #F3552C);
+  background: linear-gradient(-45deg, #4a0582, #ad61e7);
   color: #fff;
   box-shadow: none;
 }
@@ -340,12 +330,12 @@ section {
 }
 
 .pricing.popular .btn-white {
-  border: 2px solid #F3552C;
+  border: 2px solid #4a0582;
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, rgba(244, 110, 69) 0%, rgba(255, 217, 0) 100%);
+  background: linear-gradient(to right, rgba(75, 28, 113) 0%, rgba(181, 126, 220) 100% 100%);
 
   color: #fff;
 }
@@ -384,7 +374,7 @@ section {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border: 1px solid #F3552C;
+  border: 1px solid #4a0582;
 }
 
 .php-email-form .validate {
@@ -398,7 +388,7 @@ section {
 .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #7207c9;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -494,7 +484,7 @@ section {
 }
 
 .post-entry .post-text .readmore {
-  color: #F3552C;
+  color: #4a0582;
 }
 
 .sidebar-box {
@@ -648,7 +638,7 @@ section {
 }
 
 #header.header-scrolled {
-  background: rgba(255, 66, 8, 0.911);
+  background: rgba(92, 11, 146, 0.911);
   height: 60px;
 }
 
@@ -953,7 +943,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(244, 110, 69, 0.8) 0%, rgba(255, 217, 0, 0.8) 100%), url(../img/hero-bg.png);
+  background: linear-gradient(to right, rgba(75, 28, 113, 0.8) 0%, rgba(181, 126, 220, 0.8) 100% 100%), url(../img/hero-bg.png);
   position: relative;
 }
 
